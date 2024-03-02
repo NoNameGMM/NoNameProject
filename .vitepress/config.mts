@@ -54,10 +54,9 @@ export default defineConfig({
         ],
         sidebar: [
           {
-            text: '案例',
+            text: 'Bukkit插件',
             items: [
-              { text: 'NoNameGMM', link: '/markdown-examples' },
-              { text: 'NoNameCDN', link: '/api-examples' }
+              { text: 'SignInForMiraiMC', link: '#' }
             ]
           }
         ],
@@ -65,18 +64,17 @@ export default defineConfig({
     },
     en: {
       label: 'English',
-      lang: 'en', // 可选，将作为 `lang` 属性添加到 `html` 标签中
-      link: '/en/', // 默认 /fr/ -- 显示在导航栏翻译菜单上，可以是外部的
+      lang: 'en',
+      link: '/en/',
       themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
         ],
         sidebar: [
           {
-            text: 'Example',
+            text: 'Bukkit Plugin',
             items: [
-              { text: '1arkdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              { text: 'SignInForMiraiMC', link: '#' }
             ]
           }
         ],

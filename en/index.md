@@ -4,22 +4,30 @@ layout: home
 
 hero:
   name: "NoNameProject"
-  text: "A Website For NoNameGMM's Project"
-  tagline: My great project tagline
+  text: "NoNameGMM's'\nProjects"
+  tagline: "Come and See what NoNameGMM has done."
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Project List
+      link: /en/project-list
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Github
+    icon:
+      dark: /github_dark.svg
+      light: /github_light.svg
+    details: Find Me On GitHub
+    link: https://github.com/NoNameGMM
+  - title: BiliBili
+    icon:
+      dark: /bilibili_dark.svg
+      light: /bilibili_light.svg
+    details: Find Me On BiliBili
+    link: https://space.bilibili.com/647165331
+  - title: Mail
+    icon:
+      dark: /mail_dark.svg
+      light: /mail_light.svg
+    details: Contact Me By Email
+    link: mailto:nonamegmm@qq.com
 ---
-

@@ -2,9 +2,14 @@
 
 以下是NoNameGMM的项目
 
-## Minecraft Bukkit 插件
+## Minecraft Bukkit 插件 {#bukkit-plugins}
 
 ### SignInForMiraiMC
 ::: info Github
 点此进入Github项目: [『SignInForMiraiMC』](https://github.com/NoNameGMM/SignInForMiraiMC)
+<br>
+<br>
+版本: 1.6-1.17.X
+<br>
+测试通过的服务端: Bukkit, Spigot, Paper
 :::

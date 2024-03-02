@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "NoNameProject"
   text: "NoNameGMMの\n项目"
-  tagline: "快来看看NoNameGMM做了什么吧"
+  tagline: "快来看看NoNameGMM做了什么吧."
   actions:
     - theme: brand
       text: 项目列表
