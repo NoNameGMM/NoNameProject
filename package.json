@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    
     "pagefind": "^1.0.4",
     "vitepress-plugin-pagefind": "^0.2.12"
   }

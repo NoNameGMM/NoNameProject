@@ -37,10 +37,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/NoNameGMM' }
     ],
     footer: {
-      message: 'Released under the GPL-3.0 License',
+      message: 'Released under the <a href="https://github.com/NoNameGMM/NoNameProject/blob/main/LICENSE">GPL-3.0</a> License',
       copyright: 'Copyright © 2010-present NoNameGMM'
     }
   },
