@@ -9,7 +9,7 @@ The following are projects from NoNameGMM.
 Press Here to Github Project: [『SignInForMiraiMC』](https://github.com/NoNameGMM/SignInForMiraiMC)
 <br>
 <br>
-Version: 1.6-1.17.X
+Version: 1.8–1.20.4
 <br>
-Tested Server: Bukkit, Spigot, Paper
+Tested Server: Bukkit, Folia, Paper, Purpur, Spigot
 :::
