@@ -32,12 +32,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm ci
+          npm install vitepress
       - name: Build with VitePress
         run: |
-          npm install vitepress
           npm run docs:build
-          touch docs/.vitepress/dist/.nojekyll
+          touch .vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
