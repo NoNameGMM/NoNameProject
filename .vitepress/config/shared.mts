@@ -10,7 +10,7 @@ export const shared = defineConfig({
   vite: {
     plugins: [pagefindPlugin({
       customSearchQuery: chineseSearchOptimize,
-      indexingCommand:'npx pagefind --source "docs/.vitepress/dist" --bundle-dir "pagefind" --exclude-selectors "div.aside, a.header-anchor"',
+      indexingCommand:'npx pagefind --source ".vitepress/dist" --bundle-dir "pagefind" --exclude-selectors "div.aside, a.header-anchor"',
       excludeSelector:['img','a.header-anchor'],
       resultOptimization: false,
       filter(searchItem, idx, originArray) {
