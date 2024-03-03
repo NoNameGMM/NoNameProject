@@ -5,11 +5,16 @@
 ## Minecraft Bukkit 插件 {#bukkit-plugins}
 
 ### SignInForMiraiMC
-::: info Github
-点此进入Github项目: [『SignInForMiraiMC』](https://github.com/NoNameGMM/SignInForMiraiMC)
+<img alt="GitHub License" src="https://img.shields.io/github/license/NoNameGMM/SignInForMiraiMC?style=flat&label=License
+"/>
+<img alt="Minecraft Version" src="https://img.shields.io/badge/Minecraft-1.8--1.20-blue?style=flat&color=green"/>
+<img alt="GitHub Release" src="https://img.shields.io/github/v/release/NoNameGMM/SignInForMiraiMC?style=flat&label=Release"/>
 <br>
+一个基于MiraiMC的签到插件
 <br>
 版本: 1.8–1.20.4
 <br>
 测试通过的服务端: Bukkit, Folia, Paper, Purpur, Spigot
-:::
+<br>
+[<Badge type="tip" text="查看详情" />](./bukkit-plugins/signinformiraimc)
+[<Badge type="info" text="Github" />](https://github.com/NoNameGMM/SignInForMiraiMC)

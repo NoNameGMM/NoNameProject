@@ -31,7 +31,7 @@ export const zh = defineConfig({
       {
         text: 'Bukkit插件',
         items: [
-          { text: 'SignInForMiraiMC', link: '#' }
+          { text: 'SignInForMiraiMC', link: './bukkit-plugins/signinformiraimc' }
         ]
       }
     ],

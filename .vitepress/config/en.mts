@@ -31,7 +31,7 @@ export const en = defineConfig({
       {
         text: 'Bukkit Plugin',
         items: [
-          { text: 'SignInForMiraiMC', link: '#' }
+          { text: 'SignInForMiraiMC', link: './bukkit-plugins/signinformiraimc' }
         ]
       }
     ],
