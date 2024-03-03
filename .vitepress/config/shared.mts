@@ -7,6 +7,9 @@ export const shared = defineConfig({
   head: [['link', { rel: 'shortcut icon', href: '/favicon.ico' }]],
   description: "A Website For NoNameGMM's Project",
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://project.nonamegmm.tk'
+  },
   vite: {
     plugins: [pagefindPlugin({
       customSearchQuery: chineseSearchOptimize,
