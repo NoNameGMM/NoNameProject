@@ -6,3 +6,7 @@
     #aae5f9
   );
 }
+.badges {
+  display: flex;
+  gap: 5px;
+}
