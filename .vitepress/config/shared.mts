@@ -4,7 +4,10 @@ import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind
 export const shared = defineConfig({
   title: "NoNameProject",
   titleTemplate: 'By NoNameGMM',
-  head: [['link', { rel: 'shortcut icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-lzi3G7eXfx' }],
+  ],
   description: "A Website For NoNameGMM's Project",
   lastUpdated: true,
   sitemap: {
