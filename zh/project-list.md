@@ -16,5 +16,7 @@
 <br>
 测试通过的服务端: Bukkit, Folia, Paper, Purpur, Spigot
 <br>
-<a herf="./bukkit-plugins/signinformiraimc"><Badge type="tip" text="查看详情" /></a>
-<a herf="https://github.com/NoNameGMM/SignInForMiraiMC"><Badge type="info" text="Github" /></a>
+<p class="buttons">
+  <button onclick="window.location.href='./bukkit-plugins/signinformiraimc'"><Badge type="tip">查看详情</Badge></button>
+  <button onclick="window.location.href='https://github.com/NoNameGMM/SignInForMiraiMC'"><Badge type="info">Github</Badge></button>
+</p>

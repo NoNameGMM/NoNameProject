@@ -16,5 +16,7 @@ Version: 1.8–1.20.4
 <br>
 Tested Server: Bukkit, Folia, Paper, Purpur, Spigot
 <br>
-<a herf="./bukkit-plugins/signinformiraimc"><Badge type="tip" text="Details" /></a>
-<a herf="https://github.com/NoNameGMM/SignInForMiraiMC"><Badge type="info" text="Github" /></a>
+<p class="buttons">
+  <button onclick="window.location.href='./bukkit-plugins/signinformiraimc'"><Badge type="tip">Details</Badge></button>
+  <button onclick="window.location.href='https://github.com/NoNameGMM/SignInForMiraiMC'"><Badge type="info">Github</Badge></button>
+</p>
