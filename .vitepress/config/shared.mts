@@ -13,37 +13,62 @@ export const shared = defineConfig({
   sitemap: {
     hostname: 'https://project.nonamegmm.tk'
   },
-  vite: {
-    plugins: [pagefindPlugin({
-      customSearchQuery: chineseSearchOptimize,
-      indexingCommand:'npx pagefind --source ".vitepress/dist" --bundle-dir "pagefind" --exclude-selectors "div.aside, a.header-anchor"',
-      excludeSelector:['img','a.header-anchor'],
-      resultOptimization: false,
-      filter(searchItem, idx, originArray) {
-        console.log(searchItem);
-        return !searchItem.route.includes('404') 
-      },
-      locales: {
-        root:{
-          btnPlaceholder: '搜索',
-          placeholder: '搜索文档',
-          emptyText: '空空如也',
-          heading: '共: {{searchResult}} 条结果',
-        },
-        en:{
-          btnPlaceholder: 'Search',
-          placeholder: 'Search Docs...',
-          emptyText: 'No results',
-          heading: 'Total: {{searchResult}} search results.'
-        },
-      }
-    })],
-  },
   themeConfig: {
     logo: './favicon.ico',
     // https://vitepress.dev/reference/default-theme-config
     socialLinks: [
       { icon: 'github', link: 'https://github.com/NoNameGMM' }
-    ]
+    ],
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'TCF0A9R51I',
+        apiKey: '51d783c1fcc07f073f3c038b1f2cd643',
+        indexName: 'project-nonamegmm',
+        locales: {
+          zh: {
+            placeholder: '搜索文档',
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                searchBox: {
+                  resetButtonTitle: '清除查询条件',
+                  resetButtonAriaLabel: '清除查询条件',
+                  cancelButtonText: '取消',
+                  cancelButtonAriaLabel: '取消'
+                },
+                startScreen: {
+                  recentSearchesTitle: '搜索历史',
+                  noRecentSearchesText: '没有搜索历史',
+                  saveRecentSearchButtonTitle: '保存至搜索历史',
+                  removeRecentSearchButtonTitle: '从搜索历史中移除',
+                  favoriteSearchesTitle: '收藏',
+                  removeFavoriteSearchButtonTitle: '从收藏中移除'
+                },
+                errorScreen: {
+                  titleText: '无法获取结果',
+                  helpText: '你可能需要检查你的网络连接'
+                },
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换',
+                  closeText: '关闭',
+                  searchByText: '搜索提供者'
+                },
+                noResultsScreen: {
+                  noResultsText: '无法找到相关结果',
+                  suggestedQueryText: '你可以尝试查询',
+                  reportMissingResultsText: '你认为该查询应该有结果？',
+                  reportMissingResultsLinkText: '点击反馈'
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 })

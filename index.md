@@ -4,32 +4,30 @@ layout: home
 
 hero:
   name: "NoNameProject"
-  text: "NoNameGMMの\n项目"
-  tagline: "快来看看NoNameGMM做了什么吧."
+  text: "NoNameGMM's'\nProjects"
+  tagline: "Come and See what NoNameGMM has done."
   actions:
     - theme: brand
-      text: 项目列表
-      link: /project-list
+      text: Project List
+      link: ./project-list
 
 features:
   - title: Github
     icon:
       dark: /github_dark.svg
       light: /github_light.svg
-    details: 在Github上找到我
+    details: Find Me On GitHub
     link: https://github.com/NoNameGMM
   - title: BiliBili
     icon:
       dark: /bilibili_dark.svg
       light: /bilibili_light.svg
-    details: 在BiliBili上找到我
+    details: Find Me On BiliBili
     link: https://space.bilibili.com/647165331
   - title: Mail
     icon:
       dark: /mail_dark.svg
       light: /mail_light.svg
-    details: 邮箱联系我
+    details: Contact Me By Email
     link: mailto:nonamegmm@qq.com
 ---
-
-
